@@ -1,4 +1,4 @@
-systemmenu = {"FriedChicken":40,"FriedPork":30,"FriedRice":25,"FriedVegetables":60}
+systemmenu = {"friedchicken":40,"friedpork":30,"friedrice":25,"friedvegetables":60}
 menuList = []
 Sum = 0
 
@@ -8,7 +8,7 @@ def ShowBill():
         print(menuList[i][0],menuList[i][1])
 
 while True:
-    menu = input("Please enter your menu: ")
+    menu= input("Please enter your menu: ").lower()
     if menu.lower() == "exit":
         break
     else:
