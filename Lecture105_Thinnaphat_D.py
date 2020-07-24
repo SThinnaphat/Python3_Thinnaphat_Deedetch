@@ -16,6 +16,7 @@ class EstateCar(Vehicle):
 
 car1 = Car()
 car1.turnOnAirConditioner()
+car1.sayHello()
 
 pickup1 = PickUp()
 pickup1.turnOnAirConditioner()
