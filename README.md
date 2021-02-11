@@ -1,2 +1,2 @@
-# CP3-Thinnaphat-Deedetch
+# Python3_Thinnaphat_Deedetch
  My Python works
